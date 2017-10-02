@@ -32,7 +32,7 @@ LIBS:silabs
 LIBS:EFM32HG-48LQFP
 LIBS:usblc6-2
 LIBS:switches
-LIBS:efm32-duino-cache
+LIBS:efm32-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
