@@ -3,10 +3,10 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 641)
+    (tracks 642)
     (zones 0)
     (modules 32)
-    (nets 52)
+    (nets 51)
   )
 
   (page A4)
@@ -145,7 +145,6 @@
   (net 48 /vusb)
   (net 49 /vin)
   (net 50 "Net-(C7-Pad1)")
-  (net 51 "Net-(J4-Pad2)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -202,7 +201,6 @@
     (add_net "Net-(D1-Pad2)")
     (add_net "Net-(D3-Pad2)")
     (add_net "Net-(J3-Pad6)")
-    (add_net "Net-(J4-Pad2)")
     (add_net "Net-(R1-Pad1)")
     (add_net "Net-(R2-Pad1)")
   )
@@ -1646,7 +1644,7 @@
     (pad 3 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 13 /PF1/SWDIO))
     (pad 2 thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 51 "Net-(J4-Pad2)"))
+      (net 3 +3V3))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 /PF0/SWCLK))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl
@@ -1719,6 +1717,7 @@
   (segment (start 123.768 74.385) (end 123.768 75.385) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 123.768 75.385) (end 123.758 75.395) (width 0.25) (layer F.Cu) (net 2))
   (via (at 123.758 75.395) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (segment (start 124.598 77.435) (end 124.598 79.975) (width 0.6) (layer F.Cu) (net 3))
   (segment (start 130.848 82.135) (end 130.848 82.13) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 129.798011 82.125001) (end 126.477999 82.125001) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 129.908011 82.235001) (end 129.798011 82.125001) (width 0.5) (layer F.Cu) (net 3))

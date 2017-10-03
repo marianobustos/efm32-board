@@ -1223,5 +1223,9 @@ vusb
 Wire Wire Line
 	6525 2800 6525 2925
 Connection ~ 6525 2925
-NoConn ~ 9675 4025
+Wire Wire Line
+	9675 4025 9725 4025
+Wire Wire Line
+	9725 4025 9725 4125
+Connection ~ 9725 4125
 $EndSCHEMATC
