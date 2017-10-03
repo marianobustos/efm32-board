@@ -1,4 +1,4 @@
-update=dom 01 oct 2017 00:35:09 ART
+update=lun 02 oct 2017 23:50:42 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=silabs
 LibName31=EFM32HG-48LQFP
 LibName32=usblc6-2
 LibName33=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
